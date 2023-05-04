@@ -1,0 +1,36 @@
+:root {
+  /* Font family */
+  --main-family: "Prata", serif;
+
+  /* Colors */
+  --main-color: #ffffff;
+  --primary-color: #e4dcdc;
+  --secondary-color: #c1a8a8;
+
+  /* Font size */
+  --main-size: 20px;
+  --section-title-size: 46px;
+  --service-title-size: 36px;
+  --h1-title-size: 80px;
+  --h5-title-size: 24px;
+}
+
+@media screen and (max-width: 540px) {
+  :root {
+    --main-size: 18px;
+    --section-title-size: 40px;
+    --service-title-size: 30px;
+    --h1-title-size: 60px;
+    --h5-title-size: 20px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  :root {
+    --main-size: 14px;
+    --section-title-size: 32px;
+    --service-title-size: 26px;
+    --h1-title-size: 50px;
+    --h5-title-size: 18px;
+  }
+}
